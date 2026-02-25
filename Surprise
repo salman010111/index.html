@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Surprise</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+    margin: 0;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    position: relative;
+    width: 90vw;
+    max-width: 400px;
+}
+
+img {
+    width: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.8s ease;
+}
+
+#flowers {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transform: scale(0.8);
+}
+
+.show {
+    opacity: 1 !important;
+    transform: scale(1) !important;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <img id="box" src="2bbcd6971d8e57cfcd6a1ccda41dfdc8.jpg" onclick="openGift()">
+    <img id="flowers" src="23de8a1197bfffc69c2e2d2230c102a3.jpg">
+</div>
+
+<script>
+function openGift() {
+    document.getElement
